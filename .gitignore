@@ -1,0 +1,125 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Vite cache
+**/.vite/
+
+# Testing
+coverage/
+.nyc_output
+
+# Production
+dist/
+build/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Build outputs
+*.tsbuildinfo
+.next/
+out/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Flowbite generated files
+.flowbite-react/
+
+# Upload directories
+uploads/
+server/uploads/
+
+# Generated timetable files
+DTU_flexible_teacher_timetable_*.csv
+DTU_flexible_teacher_timetable_*.html
+DTU_flexible_teacher_timetable_*_validation.json
+server/DTU_flexible_teacher_timetable_*.csv
+server/DTU_flexible_teacher_timetable_*.html
+server/DTU_flexible_teacher_timetable_*_validation.json
+
+# Debug scripts
+debug_*.js
+test-*.js
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+

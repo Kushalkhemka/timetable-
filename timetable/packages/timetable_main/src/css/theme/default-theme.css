@@ -1,0 +1,128 @@
+:root{
+   
+    /* Default theme fonts */
+    --theme-font:"Plus Jakarta Sans", sans-serif;
+
+    /* Default theme shadows */
+    --theme-shadow-md: 0 2px 6px #2553b91a;
+    --theme-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --theme-shadow-dark-md:
+      rgba(145, 158, 171, 0.3) 0px 0px 2px 0px,
+      rgba(145, 158, 171, 0.02) 0px 12px 24px -4px;
+
+    --theme-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --theme-shadow-btn-shadow:rgba(0, 0, 0, 0.05) 0 9px 17.5px;
+    --theme-shadow-tw: rgba(175, 182, 201, 0.2) 0px 2px 4px -1px;
+    --theme-shadow-btnshdw: 0 17px 20px -8px rgba(77, 91, 236, 0.231372549);
+    --theme-shadow-elevation1: 0px 12px 30px -2px rgba(58, 75, 116, 0.14);
+    --theme-shadow-elevation2: 0px 24px 24px -12px rgba(0, 0, 0, 0.05);
+    --theme-shadow-elevation3: 0px 24px 24px -12px rgba(99, 91, 255, 0.15);
+    --theme-shadow-elevation4: 0 2px 30px 15px #2553b91a;
+
+    /* Default theme Radius */
+    --theme-radius-sm: 7px;
+    --theme-radius-md: 9px;
+    --theme-radius-lg: 18px;
+
+
+    /* Default theme font-size */
+    --theme-text-13: 13px;
+    --theme-text-15: 15px;
+    --theme-text-17: 17px;
+    --theme-text-22: 22px;
+    --theme-text-28: 28px;
+    --theme-text-34: 34px;
+    --theme-text-40: 40px;
+    --theme-text-44: 44px;
+    --theme-text-50: 50px;
+    --theme-text-56: 56px;
+    --theme-text-64: 64px;
+
+
+    /* Default theme colors */
+    --info:oklch(0.7811 0.1209 218.04);
+    --success:oklch(0.7676 0.1533 156.87);
+    --warning:oklch(0.8429 0.1119 73.04);
+    --error:oklch(0.7745 0.1265 35.41);
+    --indigo:oklch(0.5933 0.1751 294.4);
+    --lightsuccess:oklch(0.7676 0.1533 156.87 / 12.5%);
+    --lighterror:oklch(0.7745 0.1265 35.41 / 12.5%);
+    --lightinfo:oklch(0.7811 0.1209 218.04 / 12.5%);
+    --lightwarning:oklch(0.8429 0.1119 73.04 / 12.5%);
+    --lightindigo:oklch(0.5933 0.1751 294.4 / 12.5%);
+    --white:oklch(1 0 0) ;
+    --dark:oklch(0.23 0.037 258.85);
+    --border:oklch(0.92 0.0094 242.84);
+    --bordergray:oklch(0.87 0.0103 238.53);
+    --darkborder:oklch(0.37 0.0414 262.29 / 50%);
+    --link:oklch(0.33 0.0355 260.11);
+    --muted:oklch(0.97 0.0097 252.81);
+    --darkmuted:oklch(0.34 0.048 261.63);
+    --darklink:oklch(0.62 0.0225 243.61);
+    --lightgray:oklch(0.98 0.0045 258.32);
+    --lighthover:oklch(0.98 0.0051 247.88);
+    --darkgray: oklch(0.26 0.0374 260);
+    --error-emphasis:oklch(0.7745 0.1265 35.41 / 80%);
+    --warning-emphasis:oklch(0.8429 0.1119 73.04 / 80%);
+    --success-emphasis:oklch(0.7676 0.1533 156.87 / 80%);
+    --info-emphasis:oklch(0.7811 0.1209 218.04 / 80%);
+    --surface-ld:oklch(1 0 0);
+    
+}
+
+[data-color-theme="BLUE_THEME"] {
+    --primary: oklch(0.6 0.1613 247.83);
+    --secondary: oklch(0.57 0.0172 241.96);
+    --primary-emphasis: oklch(0.6 0.1613 247.83 / 80%);
+    --secondary-emphasis: oklch(0.57 0.0172 241.96 / 80%);
+    --lightprimary: oklch(0.6 0.1613 247.83 / 12.5%);
+    --lightsecondary: oklch(0.57 0.0172 241.96 / 12.5%);
+}
+
+[data-color-theme="AQUA_THEME"] {
+    --primary: oklch(55.34% 0.173 248.32);
+    --secondary: oklch(79.24% 0.164 179.51);
+    --primary-emphasis: oklch(55.34% 0.173 248.32 / 80%);
+    --secondary-emphasis: oklch(79.24% 0.164 179.51 / 80%);
+    --lightprimary: oklch(55.34% 0.173 248.32 / 12.5%);
+    --lightsecondary: oklch(49.56% 0.167 248.72 / 12.5%);
+}
+
+[data-color-theme="PURPLE_THEME"] {
+    --primary: oklch(45.22% 0.202 294.17);
+    --secondary: oklch(76.98% 0.211 247.58);
+    --primary-emphasis: oklch(45.22% 0.202 294.17 / 80%);
+    --secondary-emphasis: oklch(76.98% 0.211 247.58 / 80%);
+    --lightprimary: oklch(45.22% 0.202 294.17 / 12.5%);
+    --lightsecondary: oklch(76.98% 0.211 247.58 / 12.5%);
+}
+
+[data-color-theme="GREEN_THEME"] {
+    --primary: oklch(54.22% 0.122 229.82);
+    --secondary: oklch(83.88% 0.153 103.17);
+    --primary-emphasis: oklch(54.22% 0.122 229.82 / 80%);
+    --secondary-emphasis: oklch(83.88% 0.153 103.17 / 80%);
+    --lightprimary: oklch(54.22% 0.122 229.82 / 12.5%);
+    --lightsecondary: oklch(83.88% 0.153 103.17 / 12.5%);
+}
+
+[data-color-theme="CYAN_THEME"] {
+    --primary: oklch(76.14% 0.176 199.18);
+    --secondary: oklch(77.52% 0.169 46.58);
+    --primary-emphasis: oklch(76.14% 0.176 199.18 / 80%);
+    --secondary-emphasis: oklch(77.52% 0.169 46.58 / 80%);
+    --lightprimary: oklch(76.14% 0.176 199.18 / 12.5%);
+    --lightsecondary: oklch(77.52% 0.169 46.58 / 12.5%);
+}
+
+[data-color-theme="ORANGE_THEME"] {
+    --primary: oklch(76.69% 0.177 40.26);
+    --secondary: oklch(55.34% 0.173 248.32);
+    --primary-emphasis:oklch(76.69% 0.177 40.26 / 80%);
+    --secondary-emphasis: oklch(55.34% 0.173 248.32 / 80%);
+    --lightprimary: oklch(76.69% 0.177 40.26 / 12.5%);
+    --lightsecondary: oklch(55.34% 0.173 248.32 / 12.5%);
+}
+
+
+

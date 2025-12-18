@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Timetable API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Endpoints for timetable generation, retrieval, teacher views and ingest OCR pipeline. Update baseUrl via variables."
+  },
+  "item": [
+    {
+      "name": "Backend Health",
+      "request": { "method": "GET", "header": [], "url": { "raw": "{{serverBaseUrl}}/health", "host": ["{{serverBaseUrl}}"], "path": ["health"] } }
+    },
+    {
+      "name": "Ingest Health",
+      "request": { "method": "GET", "header": [], "url": { "raw": "{{ingestBaseUrl}}/health", "host": ["{{ingestBaseUrl}}"], "path": ["health"] } }
+    },
+    {
+      "name": "Generate Timetable (upload XML)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "xml", "type": "file", "src": [] },
+            { "key": "name", "type": "text", "value": "MyTimetable_{{timestamp}}" }
+          ]
+        },
+        "url": { "raw": "{{serverBaseUrl}}/api/generate", "host": ["{{serverBaseUrl}}"], "path": ["api", "generate"] }
+      }
+    },
+    {
+      "name": "Get Latest Timetable",
+      "request": { "method": "GET", "header": [], "url": { "raw": "{{serverBaseUrl}}/api/latest-timetable", "host": ["{{serverBaseUrl}}"], "path": ["api","latest-timetable"] } }
+    },
+    {
+      "name": "Get Teacher Timetables",
+      "request": { "method": "GET", "header": [], "url": { "raw": "{{serverBaseUrl}}/api/teacher-timetables", "host": ["{{serverBaseUrl}}"], "path": ["api","teacher-timetables"] } }
+    },
+    {
+      "name": "Get Teacher Timetable by ID",
+      "request": { "method": "GET", "header": [], "url": { "raw": "{{serverBaseUrl}}/api/teacher-timetable/:instructorId", "host": ["{{serverBaseUrl}}"], "path": ["api","teacher-timetable", ":instructorId"], "variable": [{"key":"instructorId","value":"T001"}] } }
+    },
+    {
+      "name": "Cleanup Timetables",
+      "request": { "method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "url": { "raw": "{{serverBaseUrl}}/api/cleanup", "host": ["{{serverBaseUrl}}"], "path": ["api","cleanup"] } }
+    },
+    {
+      "name": "Ingest PDF to Plan",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "file", "type": "file", "src": [] }
+          ]
+        },
+        "url": { "raw": "{{ingestBaseUrl}}/ingest", "host": ["{{ingestBaseUrl}}"], "path": ["ingest"] }
+      }
+    }
+  ],
+  "variable": [
+    { "key": "serverBaseUrl", "value": "http://localhost:5056" },
+    { "key": "ingestBaseUrl", "value": "http://localhost:5057" },
+    { "key": "timestamp", "value": "{{$timestamp}}" }
+  ]
+}
+
+

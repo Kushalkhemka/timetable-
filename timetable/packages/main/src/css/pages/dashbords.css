@@ -1,0 +1,24 @@
+.rounded-bars .apexcharts-bar-series.apexcharts-plot-series .apexcharts-series path {
+    clip-path: inset(0 0 5% 0 round 20px);
+}
+
+
+
+body .apexcharts-tooltip {
+    border-radius: 16px;
+}
+
+body .apexcharts-tooltip-marker {
+    border-radius: 4px;
+    width: 12px;
+    height: 4px;
+}
+
+
+body .apexcharts-tooltip-series-group {
+    padding: 0 14px;
+}
+
+body .apexcharts-tooltip-title {
+    padding: 10px 14px;
+}

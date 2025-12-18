@@ -1,0 +1,272 @@
+.dark .shadow-md {
+  box-shadow: none !important;
+}
+
+.dark .timeline-tabs .timeline .timeline-icon:after {
+  background-color: var(--darkborder);
+}
+
+.dark .timeline-tabs .timeline-list {
+  border-bottom: 1px solid var(--darkborder);
+}
+
+.dark #vector-map svg .dxm-background {
+  fill: transparent !important;
+}
+
+.dark #vector-map svg path {
+  stroke-width: 0;
+}
+
+.dark .rbc-today {
+  background-color: var(--darkmuted) !important;
+}
+
+.dark .rbc-day-slot .rbc-time-slot {
+  border-top: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-time-header-content {
+  border-left: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-time-content {
+  border-top: 2px solid var(--darkborder) !important;
+}
+
+.dark .rbc-timeslot-group {
+  border-bottom: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-time-view {
+  border: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-agenda-view table.rbc-agenda-table tbody>tr+tr {
+  border-top: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-agenda-view table.rbc-agenda-table tbody>tr>td+td {
+  border-left: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-agenda-view table.rbc-agenda-table thead>tr>th {
+  border-bottom: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-agenda-view table.rbc-agenda-table {
+  border: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-month-row+.rbc-month-row,
+.dark .rbc-day-bg+.rbc-day-bg,
+.dark .rbc-header,
+.dark .rbc-month-view,
+.dark .rbc-toolbar button,
+.dark .rbc-time-content>*+*>* {
+  border-color: var(--darkborder) !important;
+}
+
+.dark .rbc-day-bg+.rbc-day-bg {
+  border-left: 1px solid var(--darkborder) !important;
+}
+
+.dark .rbc-toolbar button {
+  background-color: var(--darkmuted) !important;
+  color: var(--white) !important;
+}
+
+.dark .rbc-toolbar button.rbc-active {
+  color: var(--primary) !important;
+}
+
+
+.dark .rbc-toolbar button:active,
+.dark .rbc-toolbar button.rbc-active {
+  background-color: var(--lightprimary) !important;
+}
+
+.dark .ql-toolbar.ql-snow {
+  border: 1px solid var(--darkborder) !important;
+}
+
+.dark .ql-container.ql-snow {
+  border: 1px solid var(--darkborder) !important;
+}
+
+.dark .code-modal pre {
+  background-color: var(--darkmuted) !important;
+  color: inherit !important;
+}
+
+/* For input Date */
+.dark ::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.dark .miniicons [data-testid="flowbite-tooltip"] {
+  width: max-content;
+  background-color: var(--primary);
+}
+
+.dark .miniicons [data-testid="flowbite-tooltip-arrow"] {
+  background-color: var(--primary);
+}
+
+
+.hover\:text-secondary {
+  &:hover {
+    color: var(--color-secondary) !important;
+  }
+}
+
+.hover\:text-indigo {
+  &:hover {
+    color: var(--color-indigo) !important;
+  }
+}
+
+.hover\:text-success {
+  &:hover {
+    color: var(--color-success) !important;
+  }
+}
+
+.hover\:text-warning {
+  &:hover {
+    color: var(--color-warning) !important;
+  }
+}
+
+.hover\:text-error {
+  &:hover {
+    color: var(--color-error) !important;
+  }
+}
+
+.hover\:text-info {
+  &:hover {
+    color: var(--color-info) !important;
+  }
+}
+
+
+.group-hover\:bg-lightsuccess {
+  &:hover {
+    background-color: var(--color-lightsuccess) !important;
+    color: var(--color-success) !important;
+  }
+}
+
+.group-hover\:bg-lightinfo {
+  &:hover {
+    background-color: var(--color-lightinfo) !important;
+    color: var(--color-info) !important;
+  }
+}
+
+.group-hover\:bg-lightinfo {
+  &:hover {
+    background-color: var(--color-lightinfo) !important;
+    color: var(--color-info) !important;
+  }
+}
+
+
+.group-hover\:bg-lighterror {
+  &:hover {
+    background-color: var(--color-lighterror) !important;
+    color: var(--color-error) !important;
+  }
+}
+
+.group-hover\:bg-lightwarning {
+  &:hover {
+    background-color: var(--color-lightwarning) !important;
+    color: var(--color-warning) !important;
+  }
+}
+
+.group-hover\:bg-lightsecondary {
+  &:hover {
+    background-color: var(--color-lightsecondary) !important;
+    color: var(--color-secondary) !important;
+  }
+}
+
+.group-hover\:bg-lightindigo {
+  &:hover {
+    background-color: var(--color-lightindigo) !important;
+    color: var(--color-indigo) !important;
+  }
+}
+
+
+.dark\:text-secondary {
+  color: var(--color-secondary) !important;
+}
+
+.dark\:text-indigo {
+  color: var(--color-indigo) !important;
+}
+
+.dark\:text-success {
+  color: var(--color-success) !important;
+}
+
+.dark\:text-warning {
+  color: var(--color-warning) !important;
+}
+
+.dark\:text-error {
+  color: var(--color-error) !important;
+}
+
+.dark\:text-info {
+  color: var(--color-info) !important;
+}
+
+
+
+.group-hover\:text-success {
+  &:hover {
+    color: var(--color-success) !important;
+  }
+}
+
+.group-hover\:text-info {
+  &:hover {
+    color: var(--color-info) !important;
+  }
+}
+
+.group-hover\:text-info {
+  &:hover {
+    color: var(--color-info) !important;
+  }
+}
+
+
+.group-hover\:text-error {
+  &:hover {
+    color: var(--color-error) !important;
+  }
+}
+
+.group-hover\:text-warning {
+  &:hover {
+    color: var(--color-warning) !important;
+  }
+}
+
+.group-hover\:text-secondary {
+  &:hover {
+    color: var(--color-secondary) !important;
+  }
+}
+
+.group-hover\:text-indigo {
+  &:hover {
+    color: var(--color-indigo) !important;
+  }
+}

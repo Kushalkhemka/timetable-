@@ -1,0 +1,27 @@
+{
+  "name": "internship-api-server",
+  "version": "1.0.0",
+  "description": "API server for internship data using Apify",
+  "main": "internship-api-server.js",
+  "scripts": {
+    "start": "node internship-api-server.js",
+    "dev": "nodemon internship-api-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "apify-client": "^2.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
+
+
+
+
+
+
+
+

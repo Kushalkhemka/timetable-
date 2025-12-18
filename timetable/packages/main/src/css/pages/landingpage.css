@@ -1,0 +1,21 @@
+.lp-header .navbar ul li
+{
+    margin-inline-end: 0 !important;
+}
+.lp-header .navbar ul li a.lp-nav:hover{
+    background-color:  var(--color-lightprimary) !important;
+    color: var(--color-primary) !important;
+}
+
+.slider-group {
+    animation: slide 45s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}

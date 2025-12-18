@@ -1,0 +1,1285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<problem name="dtu-merged-timetables" nrDays="5" nrWeeks="16" slotsPerDay="10">
+  <optimization time="25" room="1" distribution="15" student="100" />
+
+  <instructors>
+    <instructor id="1" name="Ritu Kumari" department="DTU" designation="Professor" specialization="AM101" email="Ritu9951@gmail.com" />
+    <instructor id="2" name="Md Gulam Mustafa" department="DTU" designation="Professor" specialization="ME101" email="gm09mes31@gmail.com" />
+    <instructor id="3" name="Prof. Archana Rani" department="DTU" designation="Professor" specialization="ME101" email="archnar8@yahoo.co.in" />
+    <instructor id="4" name="Kamal Kishor" department="DTU" designation="Professor" specialization="AM101" email="kamalkishor@dtu.ac.in" />
+    <instructor id="5" name="Rasin Khera" department="DTU" designation="Professor" specialization="AM101" email="rashinkhera.92@gmail.com" />
+    <instructor id="6" name="Vinod Kumar Yadav" department="DTU" designation="Professor" specialization="EE105" email="vinodkumar@dtu.ac.in" />
+    <instructor id="7" name="Dr. Nitansh" department="DTU" designation="Professor" specialization="AC101" email="nitanshvats7777@gmail.com" />
+    <instructor id="8" name="Sheetal Kumari" department="DTU" designation="Professor" specialization="AC101" email="Sheetalkumari209@gmail.com" />
+    <instructor id="9" name="Abhishek Chaudhary" department="DTU" designation="Professor" specialization="EE105" email="abhishek@dtu.ac.in" />
+    <instructor id="10" name="Dr. Reshu Chaudhary" department="DTU" designation="Professor" specialization="AC101" email="reshugoyal16@gmail.com" />
+    <instructor id="11" name="Shubham Kr Dhiman" department="DTU" designation="Professor" specialization="AM101" email="dhimans600@gmail.com" />
+    <instructor id="12" name="Umang" department="DTU" designation="Professor" specialization="AM101" email="umangberwal.1993@gmail.com" />
+    <instructor id="13" name="Jai Gopal Sharma" department="DTU" designation="Professor" specialization="AC101" email="sharmajaigopal@dce.ac.in" />
+    <instructor id="14" name="Prem Prakash" department="DTU" designation="Professor" specialization="EE105" email="Ppyadav1974@gmail.com" />
+    <instructor id="15" name="Jayant Ghosh Roy" department="DTU" designation="Professor" specialization="ME107" email="jghoshroy@gmail.com" />
+    <instructor id="16" name="Rajeev Kumar Garg &amp; B. R. Robert" department="DTU" designation="Professor" specialization="ME107" email="Rajeevk.garg@dtu.ac.in" />
+    <instructor id="17" name="Yash" department="DTU" designation="Professor" specialization="AM101" email="Yash9013562595@gmail.com" />
+    <instructor id="18" name="Gaurav Kaushik" department="DTU" designation="Professor" specialization="EE105" email="Gauravkaushik@dtu.ac.in" />
+    <instructor id="19" name="R S Kanduja" department="DTU" designation="Professor" specialization="ME107" email="khandujars@gmail.com" />
+    <instructor id="20" name="B. R. Robert" department="DTU" designation="Professor" specialization="ME107" email="brgrobert@dtu.ac.in" />
+    <instructor id="21" name="Rahul Kumar" department="DTU" designation="Professor" specialization="AM101" email="rahulkumar@dtu.ac.in" />
+    <instructor id="22" name="Varsha Pathak" department="DTU" designation="Professor" specialization="EE101" email="varshapathak222@gmail.com" />
+    <instructor id="23" name="Moirangthen Biken Singh" department="DTU" designation="Professor" specialization="AM101" email="moirangthenbikensingh@dtu.ac.in" />
+    <instructor id="24" name="Rajeev Kumar" department="DTU" designation="Professor" specialization="ME107" email="rajeevkumar@dtu.ac.in" />
+    <instructor id="25" name="Suhail Ahmad Siddiqui" department="DTU" designation="Professor" specialization="AM101" email="sasiddiqui97@gmail.com" />
+    <instructor id="26" name="Neha Gupta" department="DTU" designation="Professor" specialization="AM101" email="neha.gupta@dtu.ac.in" />
+    <instructor id="27" name="B D Pathak" department="DTU" designation="Professor" specialization="AM101" email="pathakbaldev@gmail.com" />
+    <instructor id="28" name="Sunakshi Mehra" department="DTU" designation="Professor" specialization="AM101" email="sunakshimehra@dtu.ac.in" />
+    <instructor id="29" name="Soni Kesarwani" department="DTU" designation="Professor" specialization="AM101" email="Sonikesh0@gmail.com" />
+    <instructor id="30" name="Anjali Bansal" department="DTU" designation="Professor" specialization="AM101" email="anjalibansal@dtu.ac.in" />
+    <instructor id="31" name="Indra Jeet Singh" department="DTU" designation="Professor" specialization="AC101" email="iindrajeett@gmail.com" />
+    <instructor id="32" name="Anjali" department="DTU" designation="Professor" specialization="AM101" email="Anjali.ranolia2@gmail.com" />
+    <instructor id="33" name="Anurag Goel" department="DTU" designation="Professor" specialization="AM101" email="anurag@dtu.ac.in" />
+    <instructor id="34" name="Bhupesh Bhatia (Guest)" department="DTU" designation="Professor" specialization="DA101" email="bhupeshbhatia30@gmail.com" />
+    <instructor id="35" name="Dushyant Sapra (Guest)" department="DTU" designation="Professor" specialization="AM103" email="dushyant.sapra@gmail.com" />
+    <instructor id="36" name="Geetanjali Garg" department="DTU" designation="Professor" specialization="AM101" email="geetanjali.garg@dtu.ac.in" />
+    <instructor id="37" name="Phool Singh" department="DTU" designation="Professor" specialization="AM101" email="phoolsinghdce@gmail.com" />
+    <instructor id="38" name="Masoom / Narendra Kumar - II" department="DTU" designation="Professor" specialization="AM101" email="ndeshwalus@gmail.com" />
+    <instructor id="39" name="Priya Singh" department="DTU" designation="Professor" specialization="EE101" email="priyasingh@dtu.ac.in" />
+    <instructor id="40" name="Ashok Kumar" department="DTU" designation="Professor" specialization="AM101" email="kumarashok45678@gmail.com" />
+    <instructor id="41" name="Gaurav Kaushik" department="DTU" designation="Professor" specialization="EE105" email="gauravkaushik@dtu.ac.in" />
+    <instructor id="42" name="Swechhha Gupta" department="DTU" designation="Professor" specialization="AM101" email="Swechhha.gupta@dtu.ac.in" />
+    <instructor id="43" name="Neeraj kant" department="DTU" designation="Professor" specialization="AM101" email="Neerajkant00007@gmail.com" />
+    <instructor id="44" name="Shreyansh Upadhayaya" department="DTU" designation="Professor" specialization="AC101" email="shreyansh@dtu.ac.in" />
+    <instructor id="45" name="Rahul" department="DTU" designation="Professor" specialization="CO103" email="rahul@dtu.ac.in" />
+    <instructor id="46" name="Rishab" department="DTU" designation="Professor" specialization="AM101" email="yagirishabh95@gmail.com" />
+    <instructor id="47" name="Bijendra Prasad" department="DTU" designation="Professor" specialization="AM101" email="bijendra121@gmail.com" />
+    <instructor id="48" name="Shatakshi" department="DTU" designation="Professor" specialization="AM101" email="shatakshi@dtu.ac.in" />
+    <instructor id="49" name="Dinesh Udar" department="DTU" designation="Professor" specialization="AM101" email="dineshudar@dtu.ac.in" />
+    <instructor id="50" name="Shweta Gupta" department="DTU" designation="Professor" specialization="AM101" email="Shweta.gupta@dtu.ac.in" />
+    <instructor id="51" name="Neeraj Budhraja" department="DTU" designation="Professor" specialization="AM101" email="neeraj_budhraja@yahoo.com" />
+    <instructor id="52" name="Seema Bai Meena" department="DTU" designation="Professor" specialization="AM101" email="smeena@rtu.ac.in" />
+    <instructor id="53" name="Akshay Mool" department="DTU" designation="Professor" specialization="AM101" email="akshay.mool@dtu.ac.in" />
+    <instructor id="54" name="Varsha Sisaudia" department="DTU" designation="Professor" specialization="AM101" email="varsha@dtu.ac.in" />
+    <instructor id="55" name="Dr Promila Kumari" department="DTU" designation="Professor" specialization="AC101" email="promilam88@gmail.com" />
+    <instructor id="56" name="V.V. Ramana" department="DTU" designation="Professor" specialization="AC101" email="venkata@dtu.ac.in" />
+    <instructor id="57" name="Dr. Megha Saxena" department="DTU" designation="Professor" specialization="AC101" email="saxenamegha107@gmail.com" />
+    <instructor id="58" name="Guest Faculty" department="DTU" designation="Professor" specialization="EE105" email="hodee@dce.ac.in" />
+    <instructor id="59" name="Mamta Godara" department="DTU" designation="Professor" specialization="AM101" email="godaramamta306@gmail.com" />
+    <instructor id="60" name="Massoud Massoudi" department="DTU" designation="Professor" specialization="AM101" email="massoud.massoudi@hotmail.com" />
+    <instructor id="61" name="Dr Apoorva Mallik" department="DTU" designation="Professor" specialization="AC101" email="apoorvamalik1995@gmail.com" />
+    <instructor id="62" name="Dr Likhi Dhruv" department="DTU" designation="Professor" specialization="AC101" email="dhrulikhi@gmail.com" />
+    <instructor id="63" name="DR. RAJAT CHATTERJEE (RC)" department="DTU" designation="Professor" specialization="AC101" email="believe.rach@gmail.com" />
+    <instructor id="64" name="Ashutosh Pandey" department="DTU" designation="Professor" specialization="AM101" email="ashutoshpandey@dtu.ac.in" />
+    <instructor id="65" name="Suman Bhowmick" department="DTU" designation="Professor" specialization="AM101" email="Suman.bhowmick@dce.ac.in" />
+    <instructor id="66" name="Devika Karki" department="DTU" designation="Professor" specialization="AM101" email="devikakarki_24phdit506@dtu.ac.in" />
+    <instructor id="67" name="Ankit Yadav" department="DTU" designation="Professor" specialization="AM101" email="ankityadav@dtu.ac.in" />
+    <instructor id="68" name="Ram Bhagat" department="DTU" designation="Professor" specialization="AM101" email="rambhagat@dtu.ac.in" />
+    <instructor id="69" name="Anisha" department="DTU" designation="Professor" specialization="AM101" email="anisha.bhaseen@gmail.com" />
+    <instructor id="70" name="Abhishek Swaroop" department="DTU" designation="Professor" specialization="AM101" email="asa1971@gmail.com" />
+    <instructor id="71" name="Prakhar Mishra" department="DTU" designation="Professor" specialization="CO103" email="prakharmishra_24phdit502@dtu.ac.in" />
+    <instructor id="72" name="Ramesh Srivastava" department="DTU" designation="Professor" specialization="AM101" email="rsrivastava@dce.ac.in" />
+    <instructor id="73" name="D.C. Meena" department="DTU" designation="Professor" specialization="EE101" email="dcmeena_dce@yahoo.com" />
+    <instructor id="74" name="Richa Sharma" department="DTU" designation="Professor" specialization="ME103" email="richasharma@dtu.ac.in" />
+    <instructor id="75" name="A.B.K. Bhattacharya" department="DTU" designation="Professor" specialization="EE101" email="a.b.bhattacharya@dtu.ac.in" />
+    <instructor id="76" name="Vinay Kumar" department="DTU" designation="Professor" specialization="EE101" email="vinayyadav_2k20phdme07@dtu.ac.in" />
+    <instructor id="77" name="Awadhesh Kumar" department="DTU" designation="Professor" specialization="CE101" email="awadheshg@gmail.com" />
+    <instructor id="78" name="M. Rizwan" department="DTU" designation="Professor" specialization="EE101" email="rizwan@dce.ac.in" />
+    <instructor id="79" name="P K Jain" department="DTU" designation="Professor" specialization="EE101" email="pkjain@dce.ac.in" />
+    <instructor id="80" name="Shivangi Rajput" department="DTU" designation="Professor" specialization="AM101" email="Shivangir083@gmail.com" />
+    <instructor id="81" name="Sikandar Ali Khan" department="DTU" designation="Professor" specialization="EE101" email="sikandarulhind@gmail.com" />
+    <instructor id="82" name="Astha" department="DTU" designation="Professor" specialization="CE101" email="yastha806@gmail.com" />
+    <instructor id="83" name="Dr. Priyanka Meena" department="DTU" designation="Professor" specialization="AC101" email="priyankameena.du2016@gmail.com" />
+    <instructor id="84" name="Bharti Singh" department="DTU" designation="Professor" specialization="AM101" email="bhartisingh@dtu.ac.in" />
+    <instructor id="85" name="Mridula" department="DTU" designation="Professor" specialization="AM101" email="mridula_dtu@gmail.com" />
+    <instructor id="86" name="Renuka Bokolia" department="DTU" designation="Professor" specialization="AM101" email="renukabokolia@dtu.ac.in" />
+  </instructors>
+  <courses>
+    <course id="AM101" name="MATHEMATICS-I">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="T" name="Tutorial" />
+      </parts>
+    </course>
+    <course id="CE101" name="BASICS OF CIVIL ENGINEERING">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="T" name="Tutorial" />
+      </parts>
+    </course>
+    <course id="DA101" name="DISCRETE STRUCTURE">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="T" name="Tutorial" />
+      </parts>
+    </course>
+    <course id="AP101" name="PHYSICS">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="AC101" name="CHEMISTRY">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EC101" name="BASIC ELECTRONICS AND COMMUNICATION ENGINEERING">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EE105" name="BASIC ELECTRICAL ENGINEERING-II">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="ME101" name="COMPUTER AIDED ENGINEERING GRAPHICS 1">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="ME107" name="BASIC MECHANICAL ENGINEERING">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="CE103" name="TESTING OF CIVIL ENGINEERING MATERIALS">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="CO101" name="PROGRAMMING FUNDAMENTALS">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="ME105" name="COMPUTER AIDED ENGINEERING GRAPHICS-2">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EC105" name="DIGITAL ELECTRONICS">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="CO103" name="DATA STRUCTURE">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="AM103" name="PROBABILITY FOR DATA ANALYTICS">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EE103" name="ELECTRICAL WORKSHOP">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EC103" name="ELECTRONICS WORKSHOP I">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EP103" name="ENGINEERING PHYSICS WORKSHOP">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="EE101" name="BASIC ELECTRICAL ENGINEERING-I">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="IT103" name="FUNDAMENTALS OF WEB DESIGN">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="MC103" name="PYTHON PROGRAMMING">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="AE103" name="WORKSHOP PRACTICE">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="ME103" name="WORKSHOP PRACTICE">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="PE103" name="WORKSHOP PRACTICE">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="SW103" name="COMPUTER WORKSHOP 1">
+      <parts>
+        <part id="L" name="Lectures" />
+        <part id="P" name="Lab" />
+      </parts>
+    </course>
+    <course id="BT103" name="APPLIED AQUACULTURE">
+      <parts>
+        <part id="L" name="Lectures" />
+      </parts>
+    </course>
+    <course id="VAC101" name="AS SELECTED">
+      <parts>
+        <part id="L" name="Lectures" />
+      </parts>
+    </course>
+  </courses>
+  <students>
+    <student id="BIO_TECHNOLOGY_SEC-1__SEC-1" name="BIO-TECHNOLOGY SEC-1 (BIO_TECHNOLOGY_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="AC101" />
+      <course course="EC101" />
+      <course course="BT103" />
+    </student>
+    <student id="CHEMICAL_ENGINEERING_SEC-1__SEC-1" name="CHEMICAL ENGINEERING SEC-1 (CHEMICAL_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="ME101" />
+    </student>
+    <student id="CIVIL_ENGINEERING_SEC-1__SEC-1" name="CIVIL ENGINEERING SEC-1 (CIVIL_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="ME107" />
+      <course course="CE103" />
+    </student>
+    <student id="CIVIL_ENGINEERING_SEC-2__SEC-2" name="CIVIL ENGINEERING SEC-2 (CIVIL_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="ME107" />
+      <course course="CE103" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-1 (COMPUTER_SCIENCE_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-2 (COMPUTER_SCIENCE_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-3 (COMPUTER_SCIENCE_ENGINEERING_SEC-3)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+      <course course="VAC101" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-4 (COMPUTER_SCIENCE_ENGINEERING_SEC-4)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-5 (COMPUTER_SCIENCE_ENGINEERING_SEC-5)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+    </student>
+    <student id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" name="COMPUTER SCIENCE &amp; ENGINEERING SEC-6 (COMPUTER_SCIENCE_ENGINEERING_SEC-6)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="ME105" />
+    </student>
+    <student id="CYBER_SECURITY_SEC-1__SEC-1" name="CYBER SECURITY SEC-1 (CYBER_SECURITY_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC105" />
+      <course course="CO103" />
+    </student>
+    <student id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" name="DATA SCIENCE AND ANALYTICS SEC-1 (DATA_SCIENCE_AND_ANALYTICS_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="DA101" />
+      <course course="AM103" />
+    </student>
+    <student id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" name="ELECTRICAL ENGINEERING SEC-2 (ELECTRICAL_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="CE101" />
+      <course course="ME101" />
+      <course course="EE103" />
+    </student>
+    <student id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" name="ELECTRICAL ENGINEERING SEC-3 (ELECTRICAL_ENGINEERING_SEC-3)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="CE101" />
+      <course course="ME101" />
+      <course course="EE103" />
+    </student>
+    <student id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" name="ELECTRICAL ENGINEERING SEC-5 (ELECTRICAL_ENGINEERING_SEC-5)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="CE101" />
+      <course course="ME101" />
+      <course course="EE103" />
+    </student>
+    <student id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" name="ELECTRONICS &amp; COMMUNICATION ENGINEERING SEC-1 (ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="AC101" />
+      <course course="EE105" />
+    </student>
+    <student id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" name="ELECTRONICS &amp; COMMUNICATION ENGINEERING SEC-2 (ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="AC101" />
+      <course course="EE105" />
+      <course course="EC103" />
+    </student>
+    <student id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" name="ELECTRONICS &amp; COMMUNICATION ENGINEERING SEC-3 (ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="AC101" />
+      <course course="EE105" />
+    </student>
+    <student id="ENGINEERING_PHYSICS_SEC-1__SEC-1" name="ENGINEERING PHYSICS SEC-1 (ENGINEERING_PHYSICS_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="AC101" />
+      <course course="EP103" />
+    </student>
+    <student id="ENGINEERING_PHYSICS_SEC-2__SEC-2" name="ENGINEERING PHYSICS SEC-2 (ENGINEERING_PHYSICS_SEC-2)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="AC101" />
+      <course course="EP103" />
+    </student>
+    <student id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" name="INFORMATION TECHNOLOGY SEC-1 (INFORMATION_TECHNOLOGY_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="EE101" />
+      <course course="IT103" />
+    </student>
+    <student id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" name="INFORMATION TECHNOLOGY SEC-2 (INFORMATION_TECHNOLOGY_SEC-2)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="EC101" />
+      <course course="EE101" />
+    </student>
+    <student id="MATHEMATICS_COMPUTING_SEC-1__SEC-1" name="MATHEMATICS &amp; COMPUTING SEC-1 (MATHEMATICS_COMPUTING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="ME105" />
+      <course course="MC103" />
+    </student>
+    <student id="MATHEMATICS_COMPUTING_SEC-2__SEC-2" name="MATHEMATICS &amp; COMPUTING SEC-2 (MATHEMATICS_COMPUTING_SEC-2)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="ME105" />
+      <course course="MC103" />
+    </student>
+    <student id="MATHEMATICS_COMPUTING_SEC-3__SEC-3" name="MATHEMATICS &amp; COMPUTING SEC-3 (MATHEMATICS_COMPUTING_SEC-3)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="ME105" />
+      <course course="MC103" />
+    </student>
+    <student id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" name="MECHANICAL ENGG. WITH SPECIALIZATION IN AUTOMOTIVE ENGG. SEC-1 (MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE101" />
+      <course course="CE101" />
+      <course course="AE103" />
+    </student>
+    <student id="MECHANICAL_ENGINEERING_SEC-1__SEC-1" name="MECHANICAL ENGINEERING SEC-1 (MECHANICAL_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="CE101" />
+      <course course="EE101" />
+      <course course="ME103" />
+    </student>
+    <student id="MECHANICAL_ENGINEERING_SEC-2__SEC-2" name="MECHANICAL ENGINEERING SEC-2 (MECHANICAL_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="CE101" />
+      <course course="EE101" />
+      <course course="ME103" />
+    </student>
+    <student id="MECHANICAL_ENGINEERING_SEC-3__SEC-3" name="MECHANICAL ENGINEERING SEC-3 (MECHANICAL_ENGINEERING_SEC-3)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="CE101" />
+      <course course="EE101" />
+      <course course="ME103" />
+    </student>
+    <student id="MECHANICAL_ENGINEERING_SEC-4__SEC-4" name="MECHANICAL ENGINEERING SEC-4 (MECHANICAL_ENGINEERING_SEC-4)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="CE101" />
+      <course course="EE101" />
+      <course course="ME103" />
+    </student>
+    <student id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" name="PRODUCTION &amp; INDUSTRIAL ENGINEERING SEC-1 (PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EE105" />
+      <course course="AC101" />
+      <course course="PE103" />
+    </student>
+    <student id="SOFTWARE_ENGINEERING_SEC-1__SEC-1" name="SOFTWARE ENGINEERING SEC-1 (SOFTWARE_ENGINEERING_SEC-1)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="EE101" />
+      <course course="SW103" />
+    </student>
+    <student id="SOFTWARE_ENGINEERING_SEC-2__SEC-2" name="SOFTWARE ENGINEERING SEC-2 (SOFTWARE_ENGINEERING_SEC-2)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="EE101" />
+      <course course="SW103" />
+    </student>
+    <student id="SOFTWARE_ENGINEERING_SEC-3__SEC-3" name="SOFTWARE ENGINEERING SEC-3 (SOFTWARE_ENGINEERING_SEC-3)">
+      <course course="AM101" />
+      <course course="AP101" />
+      <course course="EC101" />
+      <course course="EE101" />
+      <course course="SW103" />
+    </student>
+    <student id="VLSI_Design_and_Technology_SEC-1__SEC-1" name="VLSI Design and Technology SEC-1 (VLSI_Design_and_Technology_SEC-1)">
+      <course course="AM101" />
+      <course course="CO101" />
+      <course course="AC101" />
+      <course course="EE105" />
+    </student>
+  </students>
+  <classes>
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__1__AM101-L1-SEC-1" course="AM101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__2__AM101-L2-SEC-1" course="AM101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__3__AM101-T1-SEC-1" course="AM101" part="T" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__6__AP101-L1-SEC-1" course="AP101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__7__AP101-L2-SEC-1" course="AP101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__8__AP101-L3-SEC-1" course="AP101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__9__AP101-P1-SEC-1" course="AP101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__10__AP101-P2-SEC-1" course="AP101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__11__AC101-L1-SEC-1" course="AC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__12__AC101-L2-SEC-1" course="AC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__13__AC101-L3-SEC-1" course="AC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__14__AC101-P1-SEC-1" course="AC101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__15__AC101-P2-SEC-1" course="AC101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__16__EC101-L1-SEC-1" course="EC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__17__EC101-L2-SEC-1" course="EC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__18__EC101-L3-SEC-1" course="EC101" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__19__EC101-P1-SEC-1" course="EC101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__20__EC101-P2-SEC-1" course="EC101" part="P" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__21__BT103-L1-SEC-1" course="BT103" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__22__BT103-L2-SEC-1" course="BT103" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__23__BT103-L3-SEC-1" course="BT103" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="BIO_TECHNOLOGY_SEC-1__SEC-1__24__BT103-L4-SEC-1" course="BT103" part="L" students="BIO_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__25__AM101-L1-SEC-1" course="AM101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__26__AM101-L2-SEC-1" course="AM101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__27__AM101-T1-SEC-1" course="AM101" part="T" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__30__AP101-L1-SEC-1" course="AP101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__31__AP101-L2-SEC-1" course="AP101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__32__AP101-L3-SEC-1" course="AP101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__33__AP101-P1-SEC-1" course="AP101" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__34__AP101-P2-SEC-1" course="AP101" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__35__EE105-L1-SEC-1" course="EE105" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__36__EE105-L2-SEC-1" course="EE105" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__37__EE105-L3-SEC-1" course="EE105" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__38__EE105-P1-SEC-1" course="EE105" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__39__EE105-P2-SEC-1" course="EE105" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__40__ME101-L1-SEC-1" course="ME101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__41__ME101-L2-SEC-1" course="ME101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__42__ME101-L3-SEC-1" course="ME101" part="L" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__43__ME101-P1-SEC-1" course="ME101" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="CHEMICAL_ENGINEERING_SEC-1__SEC-1__44__ME101-P2-SEC-1" course="ME101" part="P" students="CHEMICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__45__AM101-L1-SEC-1" course="AM101" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__46__AM101-L2-SEC-1" course="AM101" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__47__AM101-T1-SEC-1" course="AM101" part="T" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__50__AP101-L1-SEC-1" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__51__AP101-L2-SEC-1" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__52__AP101-L3-SEC-1" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__53__AP101-P1-SEC-1" course="AP101" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__54__AP101-P2-SEC-1" course="AP101" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__55__EE105-L1-SEC-1" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__56__EE105-L2-SEC-1" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__57__EE105-L3-SEC-1" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__58__EE105-P1-SEC-1" course="EE105" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__59__EE105-P2-SEC-1" course="EE105" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__60__ME107-L1-SEC-1" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__61__ME107-L2-SEC-1" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__62__ME107-L3-SEC-1" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__63__ME107-P1-SEC-1" course="ME107" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-ENGINEERING-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__64__ME107-P2-SEC-1" course="ME107" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-ENGINEERING-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__65__CE103-L1-SEC-1" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__66__CE103-L2-SEC-1" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__67__CE103-L3-SEC-1" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__68__CE103-P1-SEC-1" course="CE103" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CIVIL-MATERIALS-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-1__SEC-1__69__CE103-P2-SEC-1" course="CE103" part="P" students="CIVIL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CIVIL-MATERIALS-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__70__AM101-L1-SEC-2" course="AM101" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__71__AM101-L2-SEC-2" course="AM101" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__72__AM101-T1-SEC-2" course="AM101" part="T" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__75__AP101-L1-SEC-2" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__76__AP101-L2-SEC-2" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__77__AP101-L3-SEC-2" course="AP101" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__78__AP101-P1-SEC-2" course="AP101" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__79__AP101-P2-SEC-2" course="AP101" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__80__EE105-L1-SEC-2" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__81__EE105-L2-SEC-2" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__82__EE105-L3-SEC-2" course="EE105" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__83__EE105-P1-SEC-2" course="EE105" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__84__EE105-P2-SEC-2" course="EE105" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__85__ME107-L1-SEC-2" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__86__ME107-L2-SEC-2" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__87__ME107-L3-SEC-2" course="ME107" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__88__ME107-P1-SEC-2" course="ME107" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-ENGINEERING-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__89__ME107-P2-SEC-2" course="ME107" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-ENGINEERING-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__90__CE103-L1-SEC-2" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__91__CE103-L2-SEC-2" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__92__CE103-L3-SEC-2" course="CE103" part="L" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__93__CE103-P1-SEC-2" course="CE103" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="CIVIL-MATERIALS-LAB" />
+    <class id="CIVIL_ENGINEERING_SEC-2__SEC-2__94__CE103-P2-SEC-2" course="CE103" part="P" students="CIVIL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="CIVIL-MATERIALS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__95__AM101-L1-SEC-1" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__96__AM101-L2-SEC-1" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__97__AM101-T1-SEC-1" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__100__CO101-L1-SEC-1" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__101__CO101-L2-SEC-1" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__102__CO101-L3-SEC-1" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__103__CO101-P1-SEC-1" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__104__CO101-P2-SEC-1" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__105__EC101-L1-SEC-1" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__106__EC101-L2-SEC-1" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__107__EC101-L3-SEC-1" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__108__EC101-P1-SEC-1" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__109__EC101-P2-SEC-1" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__110__ME105-L1-SEC-1" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__111__ME105-L2-SEC-1" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__112__ME105-L3-SEC-1" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__113__ME105-P1-SEC-1" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1__114__ME105-P2-SEC-1" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__115__AM101-L1-SEC-2" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__116__AM101-L2-SEC-2" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__117__AM101-T1-SEC-2" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__120__CO101-L1-SEC-2" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__121__CO101-L2-SEC-2" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__122__CO101-L3-SEC-2" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__123__CO101-P1-SEC-2" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__124__CO101-P2-SEC-2" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__125__EC101-L1-SEC-2" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__126__EC101-L2-SEC-2" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__127__EC101-L3-SEC-2" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__128__EC101-P1-SEC-2" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__129__EC101-P2-SEC-2" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__130__ME105-L1-SEC-2" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__131__ME105-L2-SEC-2" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__132__ME105-L3-SEC-2" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__133__ME105-P1-SEC-2" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2__134__ME105-P2-SEC-2" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__135__AM101-L1-SEC-3" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__136__AM101-L2-SEC-3" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__137__AM101-T1-SEC-3" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__140__CO101-L1-SEC-3" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__141__CO101-L2-SEC-3" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__142__CO101-L3-SEC-3" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__143__CO101-P1-SEC-3" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__144__CO101-P2-SEC-3" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__145__EC101-L1-SEC-3" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__146__EC101-L2-SEC-3" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__147__EC101-L3-SEC-3" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__148__EC101-P1-SEC-3" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__149__EC101-P2-SEC-3" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__150__ME105-L1-SEC-3" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__151__ME105-L2-SEC-3" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__152__ME105-L3-SEC-3" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__153__ME105-P1-SEC-3" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__154__ME105-P2-SEC-3" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__155__VAC101-L1-SEC-3" course="VAC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__156__VAC101-L2-SEC-3" course="VAC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__157__VAC101-L3-SEC-3" course="VAC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3__158__VAC101-L4-SEC-3" course="VAC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__159__AM101-L1-SEC-4" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__160__AM101-L2-SEC-4" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__161__AM101-T1-SEC-4" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__164__CO101-L1-SEC-4" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__165__CO101-L2-SEC-4" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__166__CO101-L3-SEC-4" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__167__CO101-P1-SEC-4" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__168__CO101-P2-SEC-4" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__169__EC101-L1-SEC-4" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__170__EC101-L2-SEC-4" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__171__EC101-L3-SEC-4" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__172__EC101-P1-SEC-4" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__173__EC101-P2-SEC-4" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__174__ME105-L1-SEC-4" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__175__ME105-L2-SEC-4" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__176__ME105-L3-SEC-4" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__177__ME105-P1-SEC-4" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4__178__ME105-P2-SEC-4" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__179__AM101-L1-SEC-5" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__180__AM101-L2-SEC-5" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__181__AM101-T1-SEC-5" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__184__CO101-L1-SEC-5" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__185__CO101-L2-SEC-5" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__186__CO101-L3-SEC-5" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__187__CO101-P1-SEC-5" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__188__CO101-P2-SEC-5" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__189__EC101-L1-SEC-5" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__190__EC101-L2-SEC-5" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__191__EC101-L3-SEC-5" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__192__EC101-P1-SEC-5" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__193__EC101-P2-SEC-5" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__194__ME105-L1-SEC-5" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__195__ME105-L2-SEC-5" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__196__ME105-L3-SEC-5" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__197__ME105-P1-SEC-5" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5__198__ME105-P2-SEC-5" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__199__AM101-L1-SEC-6" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__200__AM101-L2-SEC-6" course="AM101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__201__AM101-T1-SEC-6" course="AM101" part="T" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__204__CO101-L1-SEC-6" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__205__CO101-L2-SEC-6" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__206__CO101-L3-SEC-6" course="CO101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__207__CO101-P1-SEC-6" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__208__CO101-P2-SEC-6" course="CO101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__209__EC101-L1-SEC-6" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__210__EC101-L2-SEC-6" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__211__EC101-L3-SEC-6" course="EC101" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__212__EC101-P1-SEC-6" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__213__EC101-P2-SEC-6" course="EC101" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__214__ME105-L1-SEC-6" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__215__ME105-L2-SEC-6" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__216__ME105-L3-SEC-6" course="ME105" part="L" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__217__ME105-P1-SEC-6" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6__218__ME105-P2-SEC-6" course="ME105" part="P" students="COMPUTER_SCIENCE_ENGINEERING_SEC-6__SEC-6" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__219__AM101-L1-SEC-1" course="AM101" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__220__AM101-L2-SEC-1" course="AM101" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__221__AM101-T1-SEC-1" course="AM101" part="T" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__224__CO101-L1-SEC-1" course="CO101" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__225__CO101-L2-SEC-1" course="CO101" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__226__CO101-L3-SEC-1" course="CO101" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__227__CO101-P1-SEC-1" course="CO101" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__228__CO101-P2-SEC-1" course="CO101" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__229__EC105-L1-SEC-1" course="EC105" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__230__EC105-L2-SEC-1" course="EC105" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__231__EC105-L3-SEC-1" course="EC105" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__232__EC105-P1-SEC-1" course="EC105" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="DIGITAL-ELECTRONICS-LAB" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__233__EC105-P2-SEC-1" course="EC105" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="DIGITAL-ELECTRONICS-LAB" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__234__CO103-L1-SEC-1" course="CO103" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__235__CO103-L2-SEC-1" course="CO103" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__236__CO103-L3-SEC-1" course="CO103" part="L" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__237__CO103-P1-SEC-1" course="CO103" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="DATA-STRUCTURES-LAB" />
+    <class id="CYBER_SECURITY_SEC-1__SEC-1__238__CO103-P2-SEC-1" course="CO103" part="P" students="CYBER_SECURITY_SEC-1__SEC-1" weeks="1111111111111111" room="DATA-STRUCTURES-LAB" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__239__AM101-L1-SEC-1" course="AM101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__240__AM101-L2-SEC-1" course="AM101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__241__AM101-T1-SEC-1" course="AM101" part="T" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__244__CO101-L1-SEC-1" course="CO101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__245__CO101-L2-SEC-1" course="CO101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__246__CO101-L3-SEC-1" course="CO101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__247__CO101-P1-SEC-1" course="CO101" part="P" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__248__CO101-P2-SEC-1" course="CO101" part="P" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__249__DA101-L1-SEC-1" course="DA101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__250__DA101-L2-SEC-1" course="DA101" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__251__DA101-T1-SEC-1" course="DA101" part="T" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__252__AM103-L1-SEC-1" course="AM103" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__253__AM103-L2-SEC-1" course="AM103" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__254__AM103-L3-SEC-1" course="AM103" part="L" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__255__AM103-P1-SEC-1" course="AM103" part="P" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" room="PROBABILITY-LABORATORY" />
+    <class id="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1__256__AM103-P2-SEC-1" course="AM103" part="P" students="DATA_SCIENCE_AND_ANALYTICS_SEC-1__SEC-1" weeks="1111111111111111" room="PROBABILITY-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__257__AM101-L1-SEC-2" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__258__AM101-L2-SEC-2" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__259__AM101-T1-SEC-2" course="AM101" part="T" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__262__CO101-L1-SEC-2" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__263__CO101-L2-SEC-2" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__264__CO101-L3-SEC-2" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__265__CO101-P1-SEC-2" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__266__CO101-P2-SEC-2" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__267__CE101-L1-SEC-2" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__268__CE101-L2-SEC-2" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__269__CE101-T1-SEC-2" course="CE101" part="T" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__270__ME101-L1-SEC-2" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__271__ME101-L2-SEC-2" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__272__ME101-L3-SEC-2" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__273__ME101-P1-SEC-2" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__274__ME101-P2-SEC-2" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__275__EE103-L1-SEC-2" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__276__EE103-L2-SEC-2" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__277__EE103-L3-SEC-2" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__278__EE103-P1-SEC-2" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-2__SEC-2__279__EE103-P2-SEC-2" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__280__AM101-L1-SEC-3" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__281__AM101-L2-SEC-3" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__282__AM101-T1-SEC-3" course="AM101" part="T" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__285__CO101-L1-SEC-3" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__286__CO101-L2-SEC-3" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__287__CO101-L3-SEC-3" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__288__CO101-P1-SEC-3" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__289__CO101-P2-SEC-3" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__290__CE101-L1-SEC-3" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__291__CE101-L2-SEC-3" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__292__CE101-T1-SEC-3" course="CE101" part="T" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__293__ME101-L1-SEC-3" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__294__ME101-L2-SEC-3" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__295__ME101-L3-SEC-3" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__296__ME101-P1-SEC-3" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__297__ME101-P2-SEC-3" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__298__EE103-L1-SEC-3" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__299__EE103-L2-SEC-3" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__300__EE103-L3-SEC-3" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__301__EE103-P1-SEC-3" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-3__SEC-3__302__EE103-P2-SEC-3" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__303__AM101-L1-SEC-5" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__304__AM101-L2-SEC-5" course="AM101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__305__AM101-T1-SEC-5" course="AM101" part="T" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__308__CO101-L1-SEC-5" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__309__CO101-L2-SEC-5" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__310__CO101-L3-SEC-5" course="CO101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__311__CO101-P1-SEC-5" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__312__CO101-P2-SEC-5" course="CO101" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__313__CE101-L1-SEC-5" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__314__CE101-L2-SEC-5" course="CE101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__315__CE101-T1-SEC-5" course="CE101" part="T" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__316__ME101-L1-SEC-5" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__317__ME101-L2-SEC-5" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__318__ME101-L3-SEC-5" course="ME101" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__319__ME101-P1-SEC-5" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__320__ME101-P2-SEC-5" course="ME101" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="MECHANICAL-CAD-LAB" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__321__EE103-L1-SEC-5" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__322__EE103-L2-SEC-5" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__323__EE103-L3-SEC-5" course="EE103" part="L" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__324__EE103-P1-SEC-5" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRICAL_ENGINEERING_SEC-5__SEC-5__325__EE103-P2-SEC-5" course="EE103" part="P" students="ELECTRICAL_ENGINEERING_SEC-5__SEC-5" weeks="1111111111111111" room="ELECTRICAL-WORKSHOP" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__326__AM101-L1-SEC-1" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__327__AM101-L2-SEC-1" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__328__AM101-T1-SEC-1" course="AM101" part="T" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__331__CO101-L1-SEC-1" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__332__CO101-L2-SEC-1" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__333__CO101-L3-SEC-1" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__334__CO101-P1-SEC-1" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__335__CO101-P2-SEC-1" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__336__AC101-L1-SEC-1" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__337__AC101-L2-SEC-1" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__338__AC101-L3-SEC-1" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__339__AC101-P1-SEC-1" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__340__AC101-P2-SEC-1" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__341__EE105-L1-SEC-1" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__342__EE105-L2-SEC-1" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__343__EE105-L3-SEC-1" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__344__EE105-P1-SEC-1" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1__345__EE105-P2-SEC-1" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__346__AM101-L1-SEC-2" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__347__AM101-L2-SEC-2" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__348__AM101-T1-SEC-2" course="AM101" part="T" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__351__CO101-L1-SEC-2" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__352__CO101-L2-SEC-2" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__353__CO101-L3-SEC-2" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__354__CO101-P1-SEC-2" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__355__CO101-P2-SEC-2" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__356__AC101-L1-SEC-2" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__357__AC101-L2-SEC-2" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__358__AC101-L3-SEC-2" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__359__AC101-P1-SEC-2" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__360__AC101-P2-SEC-2" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__361__EE105-L1-SEC-2" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__362__EE105-L2-SEC-2" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__363__EE105-L3-SEC-2" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__364__EE105-P1-SEC-2" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__365__EE105-P2-SEC-2" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__366__EC103-L1-SEC-2" course="EC103" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__367__EC103-L2-SEC-2" course="EC103" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__368__EC103-L3-SEC-2" course="EC103" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__369__EC103-P1-SEC-2" course="EC103" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-WORKSHOP" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2__370__EC103-P2-SEC-2" course="EC103" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-WORKSHOP" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__371__AM101-L1-SEC-3" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__372__AM101-L2-SEC-3" course="AM101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__373__AM101-T1-SEC-3" course="AM101" part="T" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__376__CO101-L1-SEC-3" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__377__CO101-L2-SEC-3" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__378__CO101-L3-SEC-3" course="CO101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__379__CO101-P1-SEC-3" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__380__CO101-P2-SEC-3" course="CO101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__381__AC101-L1-SEC-3" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__382__AC101-L2-SEC-3" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__383__AC101-L3-SEC-3" course="AC101" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__384__AC101-P1-SEC-3" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__385__AC101-P2-SEC-3" course="AC101" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__386__EE105-L1-SEC-3" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__387__EE105-L2-SEC-3" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__388__EE105-L3-SEC-3" course="EE105" part="L" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__389__EE105-P1-SEC-3" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3__390__EE105-P2-SEC-3" course="EE105" part="P" students="ELECTRONICS_COMMUNICATION_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__391__AM101-L1-SEC-1" course="AM101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__392__AM101-L2-SEC-1" course="AM101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__393__AM101-T1-SEC-1" course="AM101" part="T" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__396__AP101-L1-SEC-1" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__397__AP101-L2-SEC-1" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__398__AP101-L3-SEC-1" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__399__AP101-P1-SEC-1" course="AP101" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__400__AP101-P2-SEC-1" course="AP101" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__401__EE105-L1-SEC-1" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__402__EE105-L2-SEC-1" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__403__EE105-L3-SEC-1" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__404__EE105-P1-SEC-1" course="EE105" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__405__EE105-P2-SEC-1" course="EE105" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__406__AC101-L1-SEC-1" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__407__AC101-L2-SEC-1" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__408__AC101-L3-SEC-1" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__409__AC101-P1-SEC-1" course="AC101" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__410__AC101-P2-SEC-1" course="AC101" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__411__EP103-L1-SEC-1" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__412__EP103-L2-SEC-1" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__413__EP103-L3-SEC-1" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__414__EP103-P1-SEC-1" course="EP103" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-PHYSICS-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-1__SEC-1__415__EP103-P2-SEC-1" course="EP103" part="P" students="ENGINEERING_PHYSICS_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-PHYSICS-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__416__AM101-L1-SEC-2" course="AM101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__417__AM101-L2-SEC-2" course="AM101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__418__AM101-T1-SEC-2" course="AM101" part="T" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__421__AP101-L1-SEC-2" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__422__AP101-L2-SEC-2" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__423__AP101-L3-SEC-2" course="AP101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__424__AP101-P1-SEC-2" course="AP101" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__425__AP101-P2-SEC-2" course="AP101" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__426__EE105-L1-SEC-2" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__427__EE105-L2-SEC-2" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__428__EE105-L3-SEC-2" course="EE105" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__429__EE105-P1-SEC-2" course="EE105" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__430__EE105-P2-SEC-2" course="EE105" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__431__AC101-L1-SEC-2" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__432__AC101-L2-SEC-2" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__433__AC101-L3-SEC-2" course="AC101" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__434__AC101-P1-SEC-2" course="AC101" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__435__AC101-P2-SEC-2" course="AC101" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__436__EP103-L1-SEC-2" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__437__EP103-L2-SEC-2" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__438__EP103-L3-SEC-2" course="EP103" part="L" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__439__EP103-P1-SEC-2" course="EP103" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-PHYSICS-LAB" />
+    <class id="ENGINEERING_PHYSICS_SEC-2__SEC-2__440__EP103-P2-SEC-2" course="EP103" part="P" students="ENGINEERING_PHYSICS_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-PHYSICS-LAB" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__441__AM101-L1-SEC-1" course="AM101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__442__AM101-L2-SEC-1" course="AM101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__443__AM101-T1-SEC-1" course="AM101" part="T" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__446__CO101-L1-SEC-1" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__447__CO101-L2-SEC-1" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__448__CO101-L3-SEC-1" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__449__CO101-P1-SEC-1" course="CO101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__450__CO101-P2-SEC-1" course="CO101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__451__EC101-L1-SEC-1" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__452__EC101-L2-SEC-1" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__453__EC101-L3-SEC-1" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__454__EC101-P1-SEC-1" course="EC101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__455__EC101-P2-SEC-1" course="EC101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__456__EE101-L1-SEC-1" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__457__EE101-L2-SEC-1" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__458__EE101-L3-SEC-1" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__459__EE101-P1-SEC-1" course="EE101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__460__EE101-P2-SEC-1" course="EE101" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__461__IT103-L1-SEC-1" course="IT103" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__462__IT103-L2-SEC-1" course="IT103" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__463__IT103-L3-SEC-1" course="IT103" part="L" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__464__IT103-P1-SEC-1" course="IT103" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="WEB-DESIGN-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-1__SEC-1__465__IT103-P2-SEC-1" course="IT103" part="P" students="INFORMATION_TECHNOLOGY_SEC-1__SEC-1" weeks="1111111111111111" room="WEB-DESIGN-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__466__AM101-L1-SEC-2" course="AM101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__467__AM101-L2-SEC-2" course="AM101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__468__AM101-T1-SEC-2" course="AM101" part="T" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__471__CO101-L1-SEC-2" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__472__CO101-L2-SEC-2" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__473__CO101-L3-SEC-2" course="CO101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__474__CO101-P1-SEC-2" course="CO101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__475__CO101-P2-SEC-2" course="CO101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__476__EC101-L1-SEC-2" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__477__EC101-L2-SEC-2" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__478__EC101-L3-SEC-2" course="EC101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__479__EC101-P1-SEC-2" course="EC101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__480__EC101-P2-SEC-2" course="EC101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__481__EE101-L1-SEC-2" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__482__EE101-L2-SEC-2" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__483__EE101-L3-SEC-2" course="EE101" part="L" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__484__EE101-P1-SEC-2" course="EE101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="INFORMATION_TECHNOLOGY_SEC-2__SEC-2__485__EE101-P2-SEC-2" course="EE101" part="P" students="INFORMATION_TECHNOLOGY_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__486__AM101-L1-SEC-1" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__487__AM101-L2-SEC-1" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__488__AM101-T1-SEC-1" course="AM101" part="T" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__491__AP101-L1-SEC-1" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__492__AP101-L2-SEC-1" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__493__AP101-L3-SEC-1" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__494__AP101-P1-SEC-1" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__495__AP101-P2-SEC-1" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__496__EC101-L1-SEC-1" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__497__EC101-L2-SEC-1" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__498__EC101-L3-SEC-1" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__499__EC101-P1-SEC-1" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__500__EC101-P2-SEC-1" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__501__ME105-L1-SEC-1" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__502__ME105-L2-SEC-1" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__503__ME105-L3-SEC-1" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__504__ME105-P1-SEC-1" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__505__ME105-P2-SEC-1" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__506__MC103-L1-SEC-1" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__507__MC103-L2-SEC-1" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__508__MC103-L3-SEC-1" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__509__MC103-P1-SEC-1" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-1__SEC-1__510__MC103-P2-SEC-1" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-1__SEC-1" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__511__AM101-L1-SEC-2" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__512__AM101-L2-SEC-2" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__513__AM101-T1-SEC-2" course="AM101" part="T" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__516__AP101-L1-SEC-2" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__517__AP101-L2-SEC-2" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__518__AP101-L3-SEC-2" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__519__AP101-P1-SEC-2" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__520__AP101-P2-SEC-2" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__521__EC101-L1-SEC-2" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__522__EC101-L2-SEC-2" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__523__EC101-L3-SEC-2" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__524__EC101-P1-SEC-2" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__525__EC101-P2-SEC-2" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__526__ME105-L1-SEC-2" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__527__ME105-L2-SEC-2" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__528__ME105-L3-SEC-2" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__529__ME105-P1-SEC-2" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__530__ME105-P2-SEC-2" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__531__MC103-L1-SEC-2" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__532__MC103-L2-SEC-2" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__533__MC103-L3-SEC-2" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__534__MC103-P1-SEC-2" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-2__SEC-2__535__MC103-P2-SEC-2" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-2__SEC-2" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__536__AM101-L1-SEC-3" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__537__AM101-L2-SEC-3" course="AM101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__538__AM101-T1-SEC-3" course="AM101" part="T" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__541__AP101-L1-SEC-3" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__542__AP101-L2-SEC-3" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__543__AP101-L3-SEC-3" course="AP101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__544__AP101-P1-SEC-3" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__545__AP101-P2-SEC-3" course="AP101" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__546__EC101-L1-SEC-3" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__547__EC101-L2-SEC-3" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__548__EC101-L3-SEC-3" course="EC101" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__549__EC101-P1-SEC-3" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__550__EC101-P2-SEC-3" course="EC101" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__551__ME105-L1-SEC-3" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__552__ME105-L2-SEC-3" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__553__ME105-L3-SEC-3" course="ME105" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__554__ME105-P1-SEC-3" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__555__ME105-P2-SEC-3" course="ME105" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="ENGINEERING-GRAPHICS-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__556__MC103-L1-SEC-3" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__557__MC103-L2-SEC-3" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__558__MC103-L3-SEC-3" course="MC103" part="L" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__559__MC103-P1-SEC-3" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MATHEMATICS_COMPUTING_SEC-3__SEC-3__560__MC103-P2-SEC-3" course="MC103" part="P" students="MATHEMATICS_COMPUTING_SEC-3__SEC-3" weeks="1111111111111111" room="PYTHON-PROGRAMMING-LAB" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__561__AM101-L1-SEC-1" course="AM101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__562__AM101-L2-SEC-1" course="AM101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__563__AM101-T1-SEC-1" course="AM101" part="T" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__566__AP101-L1-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__567__AP101-L2-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__568__AP101-L3-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__569__AP101-P1-SEC-1" course="AP101" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__570__AP101-P2-SEC-1" course="AP101" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__571__EE101-L1-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__572__EE101-L2-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__573__EE101-L3-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__574__EE101-P1-SEC-1" course="EE101" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__575__EE101-P2-SEC-1" course="EE101" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__576__CE101-L1-SEC-1" course="CE101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__577__CE101-L2-SEC-1" course="CE101" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__578__CE101-T1-SEC-1" course="CE101" part="T" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__579__AE103-L1-SEC-1" course="AE103" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__580__AE103-L2-SEC-1" course="AE103" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__581__AE103-L3-SEC-1" course="AE103" part="L" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__582__AE103-P1-SEC-1" course="AE103" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="AUTOMOTIVE-WORKSHOP" />
+    <class id="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1__583__AE103-P2-SEC-1" course="AE103" part="P" students="MECHANICAL_ENGG_WITH_SPECIALIZATION_IN_AUTOMOTIVE_ENGG_SEC-1__SEC-1" weeks="1111111111111111" room="AUTOMOTIVE-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__584__AM101-L1-SEC-1" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__585__AM101-L2-SEC-1" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__586__AM101-T1-SEC-1" course="AM101" part="T" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__589__AP101-L1-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__590__AP101-L2-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__591__AP101-L3-SEC-1" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__592__AP101-P1-SEC-1" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__593__AP101-P2-SEC-1" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__594__CE101-L1-SEC-1" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__595__CE101-L2-SEC-1" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__596__CE101-T1-SEC-1" course="CE101" part="T" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__597__EE101-L1-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__598__EE101-L2-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__599__EE101-L3-SEC-1" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__600__EE101-P1-SEC-1" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__601__EE101-P2-SEC-1" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__602__ME103-L1-SEC-1" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__603__ME103-L2-SEC-1" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__604__ME103-L3-SEC-1" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__605__ME103-P1-SEC-1" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-1__SEC-1__606__ME103-P2-SEC-1" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__607__AM101-L1-SEC-2" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__608__AM101-L2-SEC-2" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__609__AM101-T1-SEC-2" course="AM101" part="T" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__612__AP101-L1-SEC-2" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__613__AP101-L2-SEC-2" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__614__AP101-L3-SEC-2" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__615__AP101-P1-SEC-2" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__616__AP101-P2-SEC-2" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__617__CE101-L1-SEC-2" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__618__CE101-L2-SEC-2" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__619__CE101-T1-SEC-2" course="CE101" part="T" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__620__EE101-L1-SEC-2" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__621__EE101-L2-SEC-2" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__622__EE101-L3-SEC-2" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__623__EE101-P1-SEC-2" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__624__EE101-P2-SEC-2" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__625__ME103-L1-SEC-2" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__626__ME103-L2-SEC-2" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__627__ME103-L3-SEC-2" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__628__ME103-P1-SEC-2" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-2__SEC-2__629__ME103-P2-SEC-2" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__630__AM101-L1-SEC-3" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__631__AM101-L2-SEC-3" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__632__AM101-T1-SEC-3" course="AM101" part="T" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__635__AP101-L1-SEC-3" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__636__AP101-L2-SEC-3" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__637__AP101-L3-SEC-3" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__638__AP101-P1-SEC-3" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__639__AP101-P2-SEC-3" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__640__CE101-L1-SEC-3" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__641__CE101-L2-SEC-3" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__642__CE101-T1-SEC-3" course="CE101" part="T" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__643__EE101-L1-SEC-3" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__644__EE101-L2-SEC-3" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__645__EE101-L3-SEC-3" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__646__EE101-P1-SEC-3" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__647__EE101-P2-SEC-3" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__648__ME103-L1-SEC-3" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__649__ME103-L2-SEC-3" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__650__ME103-L3-SEC-3" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__651__ME103-P1-SEC-3" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-3__SEC-3__652__ME103-P2-SEC-3" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__653__AM101-L1-SEC-4" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__654__AM101-L2-SEC-4" course="AM101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__655__AM101-T1-SEC-4" course="AM101" part="T" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__658__AP101-L1-SEC-4" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__659__AP101-L2-SEC-4" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__660__AP101-L3-SEC-4" course="AP101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__661__AP101-P1-SEC-4" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__662__AP101-P2-SEC-4" course="AP101" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__663__CE101-L1-SEC-4" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__664__CE101-L2-SEC-4" course="CE101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__665__CE101-T1-SEC-4" course="CE101" part="T" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__666__EE101-L1-SEC-4" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__667__EE101-L2-SEC-4" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__668__EE101-L3-SEC-4" course="EE101" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__669__EE101-P1-SEC-4" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__670__EE101-P2-SEC-4" course="EE101" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__671__ME103-L1-SEC-4" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__672__ME103-L2-SEC-4" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__673__ME103-L3-SEC-4" course="ME103" part="L" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__674__ME103-P1-SEC-4" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="MECHANICAL_ENGINEERING_SEC-4__SEC-4__675__ME103-P2-SEC-4" course="ME103" part="P" students="MECHANICAL_ENGINEERING_SEC-4__SEC-4" weeks="1111111111111111" room="MECHANICAL-WORKSHOP" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__676__AM101-L1-SEC-1" course="AM101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__677__AM101-L2-SEC-1" course="AM101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__678__AM101-T1-SEC-1" course="AM101" part="T" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__681__AP101-L1-SEC-1" course="AP101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__682__AP101-L2-SEC-1" course="AP101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__683__AP101-L3-SEC-1" course="AP101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__684__AP101-P1-SEC-1" course="AP101" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__685__AP101-P2-SEC-1" course="AP101" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__686__EE105-L1-SEC-1" course="EE105" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__687__EE105-L2-SEC-1" course="EE105" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__688__EE105-L3-SEC-1" course="EE105" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__689__EE105-P1-SEC-1" course="EE105" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__690__EE105-P2-SEC-1" course="EE105" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__691__AC101-L1-SEC-1" course="AC101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__692__AC101-L2-SEC-1" course="AC101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__693__AC101-L3-SEC-1" course="AC101" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__694__AC101-P1-SEC-1" course="AC101" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__695__AC101-P2-SEC-1" course="AC101" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__696__PE103-L1-SEC-1" course="PE103" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__697__PE103-L2-SEC-1" course="PE103" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__698__PE103-L3-SEC-1" course="PE103" part="L" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__699__PE103-P1-SEC-1" course="PE103" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PRODUCTION-WORKSHOP" />
+    <class id="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1__700__PE103-P2-SEC-1" course="PE103" part="P" students="PRODUCTION_INDUSTRIAL_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PRODUCTION-WORKSHOP" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__701__AM101-L1-SEC-1" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__702__AM101-L2-SEC-1" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__703__AM101-T1-SEC-1" course="AM101" part="T" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__706__AP101-L1-SEC-1" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__707__AP101-L2-SEC-1" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__708__AP101-L3-SEC-1" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__709__AP101-P1-SEC-1" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__710__AP101-P2-SEC-1" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__711__EC101-L1-SEC-1" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__712__EC101-L2-SEC-1" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__713__EC101-L3-SEC-1" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__714__EC101-P1-SEC-1" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__715__EC101-P2-SEC-1" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__716__EE101-L1-SEC-1" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__717__EE101-L2-SEC-1" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__718__EE101-L3-SEC-1" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__719__EE101-P1-SEC-1" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__720__EE101-P2-SEC-1" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__721__SW103-L1-SEC-1" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__722__SW103-L2-SEC-1" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__723__SW103-L3-SEC-1" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__724__SW103-P1-SEC-1" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-1__SEC-1__725__SW103-P2-SEC-1" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-1__SEC-1" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__726__AM101-L1-SEC-2" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__727__AM101-L2-SEC-2" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__728__AM101-T1-SEC-2" course="AM101" part="T" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__731__AP101-L1-SEC-2" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__732__AP101-L2-SEC-2" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__733__AP101-L3-SEC-2" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__734__AP101-P1-SEC-2" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__735__AP101-P2-SEC-2" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__736__EC101-L1-SEC-2" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__737__EC101-L2-SEC-2" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__738__EC101-L3-SEC-2" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__739__EC101-P1-SEC-2" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__740__EC101-P2-SEC-2" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__741__EE101-L1-SEC-2" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__742__EE101-L2-SEC-2" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__743__EE101-L3-SEC-2" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__744__EE101-P1-SEC-2" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__745__EE101-P2-SEC-2" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__746__SW103-L1-SEC-2" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__747__SW103-L2-SEC-2" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__748__SW103-L3-SEC-2" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__749__SW103-P1-SEC-2" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-2__SEC-2__750__SW103-P2-SEC-2" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-2__SEC-2" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__751__AM101-L1-SEC-3" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__752__AM101-L2-SEC-3" course="AM101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__753__AM101-T1-SEC-3" course="AM101" part="T" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__756__AP101-L1-SEC-3" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__757__AP101-L2-SEC-3" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__758__AP101-L3-SEC-3" course="AP101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__759__AP101-P1-SEC-3" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__760__AP101-P2-SEC-3" course="AP101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="PHYSICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__761__EC101-L1-SEC-3" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__762__EC101-L2-SEC-3" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__763__EC101-L3-SEC-3" course="EC101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__764__EC101-P1-SEC-3" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__765__EC101-P2-SEC-3" course="EC101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRONICS-LABORATORY" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__766__EE101-L1-SEC-3" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__767__EE101-L2-SEC-3" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__768__EE101-L3-SEC-3" course="EE101" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__769__EE101-P1-SEC-3" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__770__EE101-P2-SEC-3" course="EE101" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="ELECTRICAL-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__771__SW103-L1-SEC-3" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__772__SW103-L2-SEC-3" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__773__SW103-L3-SEC-3" course="SW103" part="L" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__774__SW103-P1-SEC-3" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="SOFTWARE_ENGINEERING_SEC-3__SEC-3__775__SW103-P2-SEC-3" course="SW103" part="P" students="SOFTWARE_ENGINEERING_SEC-3__SEC-3" weeks="1111111111111111" room="SOFTWARE-ENGINEERING-LAB" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__776__AM101-L1-SEC-1" course="AM101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__777__AM101-L2-SEC-1" course="AM101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__778__AM101-T1-SEC-1" course="AM101" part="T" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__781__CO101-L1-SEC-1" course="CO101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__782__CO101-L2-SEC-1" course="CO101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__783__CO101-L3-SEC-1" course="CO101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__784__CO101-P1-SEC-1" course="CO101" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__785__CO101-P2-SEC-1" course="CO101" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="PROGRAMMING-LABORATORY" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__786__AC101-L1-SEC-1" course="AC101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__787__AC101-L2-SEC-1" course="AC101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__788__AC101-L3-SEC-1" course="AC101" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__789__AC101-P1-SEC-1" course="AC101" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__790__AC101-P2-SEC-1" course="AC101" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="CHEMISTRY-LABORATORY" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__791__EE105-L1-SEC-1" course="EE105" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__792__EE105-L2-SEC-1" course="EE105" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__793__EE105-L3-SEC-1" course="EE105" part="L" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__794__EE105-P1-SEC-1" course="EE105" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+    <class id="VLSI_Design_and_Technology_SEC-1__SEC-1__795__EE105-P2-SEC-1" course="EE105" part="P" students="VLSI_Design_and_Technology_SEC-1__SEC-1" weeks="1111111111111111" room="BASIC-ELECTRICAL-LAB" />
+  </classes>
+  <workingHours>
+    <day id="0" name="Monday" startTime="0" endTime="9" />
+    <day id="1" name="Tuesday" startTime="0" endTime="9" />
+    <day id="2" name="Wednesday" startTime="0" endTime="9" />
+    <day id="3" name="Thursday" startTime="0" endTime="9" />
+    <day id="4" name="Friday" startTime="0" endTime="9" />
+  </workingHours>
+  <hardConstraints>
+    <constraint id="HC01" name="Room Capacity" description="Number of seats must be &gt;= enrolled students" weight="1000" mandatory="true" />
+    <constraint id="HC02" name="Room Availability" description="A room cannot host more than one class at a time" weight="1000" mandatory="true" />
+    <constraint id="HC03" name="Faculty Clash Avoidance" description="A teacher cannot teach multiple classes simultaneously" weight="1000" mandatory="true" />
+    <constraint id="HC04" name="Student Group Clash Avoidance" description="A student/class cannot attend two lectures at the same time" weight="1000" mandatory="true" />
+    <constraint id="HC05" name="Time Window Constraints" description="Lectures must fit within institution working hours (Mon-Fri, 8:00-18:00)" weight="1000" mandatory="true" />
+    <constraint id="HC06" name="Course Load Fulfillment" description="Each course must be scheduled for its required lecture/tutorial/lab hours per week" weight="1000" mandatory="true" />
+    <constraint id="HC07" name="Lab/Equipment Requirement" description="Courses requiring labs/projectors must be assigned only to suitable rooms" weight="1000" mandatory="true" />
+    <constraint id="HC08" name="One Session, One Location" description="A session cannot be split across multiple rooms simultaneously" weight="1000" mandatory="true" />
+    <constraint id="HC09" name="Faculty Availability" description="Lectures must not be scheduled when a teacher is unavailable" weight="1000" mandatory="true" />
+    <constraint id="HC10" name="Exam Timetable Dependencies" description="Courses sharing students cannot have exams clashing" weight="1000" mandatory="true" />
+    <constraint id="HC11" name="Legal/Ethical Constraints" description="No classes scheduled on national holidays, official breaks" weight="1000" mandatory="true" />
+    <constraint id="HC12" name="Prerequisite Ordering" description="Some practicals must occur after theory lectures" weight="1000" mandatory="true" />
+    <constraint id="HC13" name="Batch Splitting in Labs" description="If labs must be split into sub-batches, they must be assigned valid parallel slots/rooms" weight="1000" mandatory="true" />
+    <constraint id="HC14" name="Curriculum Coverage" description="Every compulsory subject must appear in every semester's timetable" weight="1000" mandatory="true" />
+    <constraint id="HC15" name="Section Uniqueness" description="Each section of a course must have a unique non-overlapping allocation" weight="1000" mandatory="true" />
+    <constraint id="HC16" name="Class Hours Restriction" description="All classes must be scheduled between 10:00 AM - 4:00 PM (P3 to P8)" weight="1000" mandatory="true" />
+    <constraint id="HC17" name="Mandatory Lunch Break" description="Each section must have at least one free period between 12:00-15:00 (P5-P7) every day" weight="1000" mandatory="true" />
+  </hardConstraints>
+  <softConstraints>
+    <constraint id="SC01" name="Minimize Gaps for Students" description="Avoid long idle times between lectures" weight="80" priority="high" />
+    <constraint id="SC02" name="Minimize Gaps for Teachers" description="Avoid unnecessary waiting between lectures" weight="70" priority="high" />
+    <constraint id="SC03" name="Balanced Daily Workload" description="Avoid overloading a class/teacher on a single day" weight="75" priority="high" />
+    <constraint id="SC04" name="Balanced Weekly Workload" description="Spread courses evenly across the week" weight="65" priority="medium" />
+    <constraint id="SC05" name="Preferred Time Slots" description="Morning slots for core subjects, electives later" weight="60" priority="medium" />
+    <constraint id="SC06" name="Avoid Early/Late Slots" description="Avoid 8 AM or 6 PM classes if possible" weight="50" priority="medium" />
+    <constraint id="SC07" name="Avoid Consecutive Lectures" description="Reduce back-to-back lectures for both students and faculty" weight="55" priority="medium" />
+    <constraint id="SC08" name="Teacher Preferences" description="Some teachers prefer specific days/times" weight="45" priority="low" />
+    <constraint id="SC09" name="Student Preferences" description="Certain electives preferred at non-conflicting times" weight="40" priority="low" />
+    <constraint id="SC10" name="Classroom Proximity" description="Assign classes/labs in physically close locations" weight="35" priority="low" />
+    <constraint id="SC11" name="Fair Resource Usage" description="Ensure equal distribution of premium rooms/labs among departments" weight="50" priority="medium" />
+    <constraint id="SC12" name="Compact Schedules" description="Keep lectures grouped without large gaps" weight="70" priority="high" />
+    <constraint id="SC13" name="Avoid Overcrowded Days" description="Ensure no day has excessive lectures compared to others" weight="60" priority="medium" />
+    <constraint id="SC14" name="Parallel Electives Handling" description="Electives chosen by different student groups should be scheduled without clashes" weight="65" priority="medium" />
+    <constraint id="SC15" name="Faculty Load Balancing" description="Ensure workload distribution among teachers is fair" weight="55" priority="medium" />
+    <constraint id="SC16" name="Guest Faculty Optimization" description="Group their classes into fewer days to minimize campus visits" weight="40" priority="low" />
+    <constraint id="SC17" name="Exam-Friendly Layout" description="Avoid overloading a day just before scheduled exams" weight="45" priority="low" />
+    <constraint id="SC18" name="Energy/Resource Optimization" description="Try to schedule in a way that minimizes unused rooms/electricity" weight="30" priority="low" />
+    <constraint id="SC19" name="Flexible Lunch Break" description="Allow lunch break in any one slot between 12:00-15:00 (P5, P6, or P7)" weight="85" priority="high" />
+    <constraint id="SC20" name="Pedagogical Constraints" description="Spread theory and labs logically (lab after related theory)" weight="60" priority="medium" />
+    <constraint id="SC21" name="Seasonal/Contextual Adjustments" description="Summer classes in air-conditioned rooms, etc." weight="25" priority="low" />
+    <constraint id="SC22" name="Equal Class Distribution" description="Classes should be distributed evenly across weekdays (2-4 classes per day per section)" weight="50" priority="medium" />
+    <constraint id="SC23" name="Prevent Daily Overload" description="No section should have more than 4 classes in a single day" weight="75" priority="high" />
+  </softConstraints>
+  <timeConstraints>
+    <workingHours start="08:00" end="18:00" />
+    <lunchBreak start="12:00" end="15:00" flexible="true" />
+    <slotDuration minutes="60" />
+    <breakBetweenSlots minutes="0" />
+    <workingDays>Monday,Tuesday,Wednesday,Thursday,Friday</workingDays>
+  </timeConstraints>
+  <institutionalPolicies>
+    <policy id="POL01" name="Maximum Consecutive Classes" value="3" description="No more than 3 consecutive classes for students" />
+    <policy id="POL02" name="Maximum Daily Load" value="6" description="Maximum 6 classes per day for any section" />
+    <policy id="POL03" name="Faculty Daily Limit" value="8" description="Maximum 8 teaching hours per day for faculty" />
+    <policy id="POL04" name="Lab Duration" value="2" description="Lab sessions must be minimum 2 hours" />
+    <policy id="POL05" name="Theory Duration" value="1" description="Theory classes are 1 hour each" />
+    <policy id="POL06" name="Tutorial Duration" value="1" description="Tutorial classes are 1 hour each" />
+    <policy id="POL07" name="Room Change Time" value="10" description="Minimum 10 minutes between classes in different buildings" />
+    <policy id="POL08" name="Preferred Morning Subjects" subjects="CS203,CS205,CS207,CS209" description="Core CS subjects preferred in morning slots" />
+  </institutionalPolicies>
+</problem>

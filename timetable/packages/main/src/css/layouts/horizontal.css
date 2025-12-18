@@ -1,0 +1,21 @@
+.horizontal-nav ul li .active {
+    background-color: var(--lightprimary);
+    color: var(--primary);
+}
+
+[data-layout='horizontal'] .page-wrapper {
+    margin-left: 0;
+    transition: none;
+}
+
+@media (min-width: 1024px) {
+    .tables-position {
+        left: unset;
+        right: 100%;
+    }
+
+    html[dir="rtl"] .tables-position {
+        right: unset;
+        left: 100%;
+    }
+}
