@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -uo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
@@ -67,6 +67,33 @@ require_cmd() {
   fi
 }
 
+kill_port() {
+  local port="$1"
+  echo "Checking for processes on port $port..."
+  
+  local pids=""
+  
+  # Try lsof first (macOS and many Linux distros)
+  if command -v lsof >/dev/null 2>&1; then
+    pids=$(lsof -ti:"$port" 2>/dev/null || true)
+  # Fallback to fuser (common on Linux)
+  elif command -v fuser >/dev/null 2>&1; then
+    pids=$(fuser "$port/tcp" 2>/dev/null | tr -s ' ' '\n' || true)
+  # Fallback to ss + awk (modern Linux)
+  elif command -v ss >/dev/null 2>&1; then
+    pids=$(ss -lptn "sport = :$port" 2>/dev/null | awk '/pid=/{match($0, /pid=([0-9]+)/, a); print a[1]}' | sort -u || true)
+  # Last resort: netstat (older systems)
+  elif command -v netstat >/dev/null 2>&1; then
+    pids=$(netstat -tlnp 2>/dev/null | grep ":$port " | awk '{print $7}' | cut -d'/' -f1 | grep -E '^[0-9]+$' || true)
+  fi
+  
+  if [[ -n "$pids" ]]; then
+    echo "  Killing existing process(es) on port $port: $pids"
+    echo "$pids" | xargs kill -9 2>/dev/null || true
+    sleep 0.5
+  fi
+}
+
 require_cmd node
 require_cmd npm
 
@@ -88,7 +115,12 @@ start_service() {
     if [[ "$DRY_RUN" == "1" ]]; then
       echo "  (dry-run) cd \"$cwd\" && npm install"
     else
-      (cd "$cwd" && npm install)
+      # Use legacy-peer-deps for web service to handle React 19 conflicts
+      if [[ "$name" == "web" ]]; then
+        (cd "$cwd" && npm install --legacy-peer-deps) || echo "  Warning: npm install failed for $name" >&2
+      else
+        (cd "$cwd" && npm install) || echo "  Warning: npm install failed for $name" >&2
+      fi
     fi
   fi
 
@@ -98,15 +130,23 @@ start_service() {
     return 0
   fi
 
-  # Prefer starting in its own session (process group) so we can kill it reliably.
-  # If setsid is unavailable, fall back to a plain background process.
-  if command -v setsid >/dev/null 2>&1; then
-    # The PID we capture is the session leader; killing "-PID" targets the whole group.
-    setsid bash -lc "cd \"$cwd\" && exec $cmd" &
-  else
-    bash -lc "cd \"$cwd\" && exec $cmd" &
-  fi
+  # Start the service in a subshell with its own process group
+  (
+    cd "$cwd" 2>/dev/null || exit 1
+    exec $cmd 2>&1
+  ) &
   local pid="$!"
+  
+  # Give the process a moment to start before continuing
+  sleep 0.3
+  
+  # Verify the process actually started
+  if ! kill -0 "$pid" 2>/dev/null; then
+    echo "  ✗ Failed to start $name (PID $pid)" >&2
+    return 1
+  fi
+  
+  echo "  ✓ Started $name (PID $pid)"
   SERVICE_NAMES+=("$name")
   SERVICE_PGIDS+=("$pid")
 }
@@ -119,26 +159,21 @@ cleanup() {
   echo ""
   echo "Stopping services..."
 
-  # Ask nicely first
+  # Kill process groups (negative PID kills the entire group)
   for pid in "${SERVICE_PGIDS[@]}"; do
-    if command -v setsid >/dev/null 2>&1; then
-      kill -TERM -- "-$pid" >/dev/null 2>&1 || true
-    else
-      kill -TERM "$pid" >/dev/null 2>&1 || true
+    if kill -0 "$pid" >/dev/null 2>&1; then
+      # Try to kill the process group
+      kill -TERM -- "-$pid" >/dev/null 2>&1 || kill -TERM "$pid" >/dev/null 2>&1 || true
     fi
   done
 
-  # Give them a moment
-  sleep 2 || true
+  # Give them a moment to shutdown gracefully
+  sleep 2
 
   # Force kill anything still running
   for pid in "${SERVICE_PGIDS[@]}"; do
     if kill -0 "$pid" >/dev/null 2>&1; then
-      if command -v setsid >/dev/null 2>&1; then
-        kill -KILL -- "-$pid" >/dev/null 2>&1 || true
-      else
-        kill -KILL "$pid" >/dev/null 2>&1 || true
-      fi
+      kill -KILL -- "-$pid" >/dev/null 2>&1 || kill -KILL "$pid" >/dev/null 2>&1 || true
     fi
   done
 }
@@ -147,6 +182,23 @@ trap cleanup EXIT INT TERM
 
 echo "Repo: $REPO_ROOT"
 echo "Mode: $MODE"
+echo ""
+
+# Clean up ports that services will use
+if [[ "$RUN_BACKEND" == "1" ]]; then
+  kill_port 5055
+fi
+if [[ "$RUN_INGEST" == "1" ]]; then
+  kill_port 5057
+fi
+if [[ "$RUN_WEB" == "1" ]]; then
+  kill_port 5173  # Default Vite port
+fi
+if [[ "$RUN_INTERNSHIP" == "1" ]]; then
+  kill_port 3001
+fi
+
+echo ""
 
 if [[ "$MODE" == "dev" ]]; then
   [[ "$RUN_BACKEND" == "1" ]] && start_service "backend" "$REPO_ROOT/server" "npm run dev"
@@ -182,6 +234,9 @@ done
 echo ""
 echo "Press Ctrl+C to stop everything."
 
-# Wait for any one service to exit; then we stop the rest via trap.
-wait -n "${SERVICE_PGIDS[@]}"
+# Wait for all services to complete or for interrupt signal
+# The trap will handle cleanup when any service exits or on Ctrl+C
+for pid in "${SERVICE_PGIDS[@]}"; do
+  wait "$pid" 2>/dev/null || true
+done
 
